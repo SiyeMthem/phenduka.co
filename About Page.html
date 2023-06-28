@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <mate name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Phenduka Website Design - Easy Totorials</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+    <body>
+    <section class="Sub-header">
+        <nav>
+            <a href="indexPage.html"><img src="images/Logo Phenduka.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="indexPage.html">HOME</a></li>
+                        <li><a href="About Page.html">ABOUT</a></li>
+                        <li><a href="Services.html">Services</a></li>
+                        <li><a href="ContactPage.html">Contact Us</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-times" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+     </section>
+     <!------about us content----->
+
+     <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>About Us</h1>
+                    <p><div class="row">        <!-----start here----->
+                        <div class="span12">
+                          <h4>Background</h4>
+                          <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                  Phenduka</a>
+                              </div>
+                              <div id="collapseOne" class="accordion-body collapse in">
+                                <div class="accordion-inner">
+                                  <p>
+                                    Phenduka is a black-owned company that offers management consulting and training services. The company provides services to clients across South Africa. The company was founded by professionals with with many years of consulting experience. This experience, combined with a deep understanding of organizational change management issues, places Phenduka in a unique position to deliver successful change initiative.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-group">
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                  Leadership & Coaching </a>
+                              </div>
+                              <div id="collapseTwo" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                  <p>
+                                    Our clients work in an ever-changing world. Changing priorities,changing landscape, human resources processes, and technology needs.Managers and supervisors need coaching skills to support their users and staff go through chanage. Phenduka will assist in coaching your managers through the change.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-group">
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                  Change Management </a>
+                              </div>
+                              <div id="collapseThree" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                  <p>
+                                    When your organization undertakes projects or initiatives to improve performance, seize opportunities or address key issues, they often require changes; changes to the process, job roles, organizational structures, and types and uses of technology. We will help you manage the change through a structure and systemic process.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-group">
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                                  Project Execution & Leadership </a>
+                              </div>
+                              <div id="collapseFour" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                  <p>
+                                    Work with our team to increase your chances of realizing promised benefits through an integrated approach. We believe that a great strategy does not just implement itself. Our strategy encompasses the best practices so that our experienced consultants can bring to bear in ensuring that the aspiration of our clients is realized. Phenduka has assembled a group of highly skilled professionals with outstanding track records in project delivery.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>            <!--------------end here--------->
+                    </p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/download.jpeg>"> 
+                </div>
+            </div>
+     </section>
+
+   
+
+        <!-------Footer----------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+            eiusmod tempor incididunt <br>ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by IT GUYS</p>
+
+    </section>
+
+   <!------JavaScript for Toggle Menu------->
+    <script>
+        var navlinks = document.getElementById("navLinks");
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    
+    </body>
+</html>
