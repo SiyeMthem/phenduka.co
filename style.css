@@ -56,7 +56,7 @@ nav{
     width: 100%;
     position: absolute;
     top: 60%;
-    left 50%
+    left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
@@ -80,13 +80,14 @@ nav{
     font-family: sans-serif;
 }
 
-button{
+.button{
+    text-decoration: none;
     padding: 12px 34px;
-    margin: 20px
+    margin: 20px;
     font-size: 16px;
     letter-spacing: 1px;
     border: 2px solid #014f1e;
-    color: #fff;
+    color: #014f1e;
     cursor: pointer;
     background: linear-gradient(to right, transparent 50%, #014f1e 50%);
     background-size: 200%;
@@ -94,9 +95,9 @@ button{
     transition: background-position 0.5s;
     
 }
-button:hover{
+.button:hover{
     background-position: right;
-    color: #000;
+    color: #fff;
 }
 
 .slider{
@@ -115,7 +116,7 @@ button:hover{
     100%{ margin-top: 200px; }
 } 
 
-@media(max-width: 700px){
+@media(max-width: 400px){
     .title{
         font-size: 20px;
     }
@@ -239,30 +240,49 @@ h3{
 }
  /*---------Facilities----------*/
 
-.facilities{
+.clients{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
-.facilities-col{
+.clients-col{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    animation: clients-col 10s linear infinite;
 }
-.facilities-col img{
+@keyframes clients-col{
+    0%{ margin-right: -400px;}
+    5%{ margin-right: -200px;}
+    30%{ margin-right: -200px;}
+    35%{ margin-right: 0px;}
+    65%{ margin-right: 0px; }
+    75%{ margin-right: 200px;}
+    100%{ margin-right: 200px;}
+}
+.clients-col img{
     width:100%;
     border-radius: 10px;
 }
-.facilities-col p{
+.clients-col p{
     padding: 0;
+    width: 100%;
 }
-.facilities-col h3{
+.clients-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
 }
+@media(max-width: 700px){
+    .clients-col{
+        flex-wrap: column;
+    }
+}
+
+    
+
 
 /*---------testimonial-------*/
 
