@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <mate name="viewport" content="with=device-width, initial-scale=1.0">
         <title>Phenduka Website Design - Easy Totorials</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://kit.fontawesome.com/bc5217ef57.js" crossorigin="anonymous"></script>
 </head>
     <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/Logo Phenduka.png"></a>
+            <a href="index.html"><img src="images/Logo with Name 2.png"></a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="index.html">HOME</a></li>
-                         <li><a href="About Page.html">ABOUT</a></li>
+                        <li><a href="index.html">Home</a></li>
+                         <li><a href="About Page.html">About Us</a></li>
                          <li><a href="Services.html">Services</a></li>
                          <li><a href="ContactPage.html">Contact Us</a></li>
                     </ul>
@@ -43,62 +47,89 @@
     </section>
   
 
-    <!-------Company------>
-    <Section class="Company">
-        <h1>Our Global Company</h1>
-        <p>lorem iosum dolor sit amet, consectetur adipiscing elit.</p>
-
-        <div class="row">
-            <div class="company-col">
-                <img src="images/client1.png">
-                <div class="Layer">
-                    <h3>Servises</h3>
+    <!-------Services------>
+    <Section class="Service-contain">
+        <div class="container">
+            <div class="service">
+                <h1>Our Services</h1>
             </div>
-            <div class="company-col">
-                <img src="images/client2.png">
-                <div class="Layer">
-                    <h3>Servises</h3>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <h3>Trainng</h3>
+                    <p>We conduct impact analyses, assess<br> change readiness and identify
+                        key stakeholders.<br> Supporting training efforts. Providing<br>input, 
+                        document requirements, and support the design<br> and delivery of
+                        training programs. </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <h3>Communication</h3>
+                    <p>Phenduka will support<br> the design, 
+                        development, delivery<br> and management of 
+                        communications in order<br> to align users to the 
+                        change initiative.  </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <h3>Change Management</h3>
+                    <p>Phenduka will support the design<br>, development,
+                        delivery <br>and management of communications<br> in order
+                        to align users to<br> the change initiative.  </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-group"></i>
+                    </div>
+                    <h3>Stakeholders Engagement</h3>
+                    <p>Our stakeholder management strategy<br> ensures that 
+                        stakeholders<br> are correctly identified, correctly aligned
+                        to<br> the change initiative and supported<br> throughout the
+                        implementation.</p>
+                </div>
             </div>
-            <div class="company-col">
-                <img src="images/client3.png">
-                <div class="Layer">
-                    <h3>Servises</h3>
-            </div>
-
         </div>
-
-
     </Section>
+
+    <section class="cta">
+        <a href="Services.html" class="button">More Services</a>
+     </section>
+    
 
     <!-----------facilities---------->
     <section class="clients">
         <h1>Our Clients</h1>
-        <p>lorem iosum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Companys that have trusted us with Our service.</p>
 
         <div class="row">
             <div class="clients-col>">
                 <img src="images/client1.png">
-                <h3>World Class Library</h3>
             </div>
             <div class="clients-col>">
                 <img src="images/client2.png">
-                <h3>World Class Library</h3>
             </div>
             <div class="clients-col>">
                 <img src="images/client3.png">
-                <h3>World Class Library</h3>
             </div>
-           <!---- <div class="clients-col>">
+           <div class="clients-col>">
                 <img src="images/client5.png">
-                <h3>World Class Library</h3>
-            </div> -->
+            </div>
+            <div class="clients-col">
+                <img src="images/client4.png">
+            </div>
 
         </div>
     </section>
 <!-------testimonials------->
 
     <section class="testimonials">
-        <h1>What Our clients Says</h1>
+        <h1>Management Members</h1>
         <p>lorem iosum dolor sit amet, consectetur adipiscing elit</p>
         <div class="row">
             <div class="testmonials-col">
@@ -121,29 +152,45 @@
 
     </section>
 
-    <!-------Call To Action-------------->
-    <section class="cta">
-        <h1>Phenduka Solution</h1>
-        <a href="ContactPage.html" class="button">CONTACT US</a>
-
-    </section>
+    <!-----Call To Action------>
+  
 
     <!-------Footer----------->
 
     <section class="footer">
-        <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-            eiusmod tempor incididunt <br>ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat</p>
+        
+        <div >
+            <div class="foot-nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About Page.html">About Us</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="ContactPage.html">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+27 079 349 8936</h5>
+                    <p>Monday to Sunday, 8h30AM to 4h30PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@phenduka.co.za</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
             <div class="social-links">
                 <a href=""><i class="fa fa-facebook"></i></a>
                 <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-instagram"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/phenduka-it-management-consultancy"><i class="fa fa-linkedin"></i></a>
             </div>
             <p>Made with <i class="fa fa-heart-o"></i> by IT GUYS</p>
-
+        </div>
     </section>
 
    <!------JavaScript for Toggle Menu------->
