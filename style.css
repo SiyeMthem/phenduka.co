@@ -16,12 +16,12 @@ nav{
     width: 85%;
     margin: auto;
     display: flex;
-    padding: 35px 0;
+    padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
 }
-.nav img{
-    width: 150px;
+nav img{
+    width: 250px;
     cursor: pointer;
 }
 .nav-links{
@@ -31,7 +31,7 @@ nav{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 12px;
     position: relative;
 }
 .nav-links ul li a{
@@ -54,9 +54,9 @@ nav{
     width: 100%;
 }
 .text-box{
-    width: 100%;
+    width: 90%;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -75,7 +75,7 @@ nav{
 }
 .text-box p{
     margin: 20px auto;
-    font-weight: 100;
+    font-weight:100;
     line-height: 25px;
     color:#fff;
     font-family: sans-serif;
@@ -117,9 +117,14 @@ nav{
     100%{ margin-top: 200px; }
 } 
 
-@media(max-width: 700px){
+nav .fa{
+    display: none;
+}
+
+@media(max-width: 1033px){
     .title{
-        font-size: 20px;
+        font-size: 35px;
+        display: flex;
     }
     .nav-links ul li{
         display: block;
@@ -145,11 +150,27 @@ nav{
     .nav-links ul{
         padding: 30px;
     }
+    .text-box {
+        width: 100%
+    }
 }
+/*---@media(min-width: 350px){
+
+    .title{
+        font-size:20px;
+        display:flex;
+    }
+    .slider{
+        font-size:20px;    
+    }   
+}----*/
+
 /*-----about page---*/
 body{
-    background-color: #01210b;
-   /*------- background-image: url(images/Logo[352].png);----*/
+    background-color: #023c14;
+    background-image: url(images/6510702719717.jpg);
+    background-size: cover;
+    
 }
 .heading{
     width:90%;
@@ -196,7 +217,7 @@ body{
     margin-right: 40px;
     overflow-wrap: hidden;
 }
-.about-image img{
+.about-image video{
     max-width: 100%;
     height: auto;
     display: block;
@@ -224,7 +245,7 @@ body{
         padding: 0px 20px;
     }
     .heading h1{
-        font-size: 36;
+        font-size: 36px;
     }
     .heading p{
         font-size: 17px;
