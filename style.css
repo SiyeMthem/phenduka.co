@@ -27,7 +27,7 @@ nav img{
 }
 .nav-links{
     flex: 1;
-    text-align: left;
+    text-align: right;
 }
 .nav-links ul li{
     list-style: none;
@@ -45,7 +45,7 @@ nav img{
     content: '';
     width: 0;
     height: 3px;
-    background: #02460b;
+    background: #05712d;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -89,7 +89,7 @@ nav img{
     margin: 20px;
     font-size: 16px;
     letter-spacing: 1px;
-    border: 2px solid #014f1e;
+    border: 2px solid #05712d;
     color: #f6f6f6;
     cursor: pointer;
     background: linear-gradient(to right, transparent 50%, #014f1e 50%);
@@ -104,7 +104,7 @@ nav img{
 }
 
 .slider{
-    color:#014f1e;
+    color:#05712d;
     margin-left: 12px;
     box-sizing: border-box;
     animation: slider 6s linear infinite;
@@ -133,7 +133,7 @@ nav .fa{
     }
     .nav-links{
         position:absolute;
-        background: #014f1e;
+        background: #05712d;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -155,8 +155,8 @@ nav .fa{
 }
 /*-----about page---*/
 body{
-    background-color: #023c14;
-    background-image: url(images/6510702719717.jpg);
+    background-color: #05712d;
+    background-image: url(images/plain-smooth-green-wall-texture.jpg);
     background-size: cover;
     
 }
@@ -168,7 +168,9 @@ body{
     flex-direction: column;
     text-align: center;
     margin: 20px auto;
+    
 }
+
 .heading h1{
     font-size: 50px;
     color:#fff;
@@ -182,12 +184,12 @@ body{
     height: 4px;
     display: block;
     margin: 0 auto;
-    background-color:#014f1e;
+    background-color:#05712d;
 }
 .heading p{
-    font-size: 18px;
+    font-size: 23px;
     color:#fcfcfc;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 .container{
     width:90%;
@@ -224,6 +226,11 @@ body{
 }
 .about-content p{
     font-size: 25px;
+    line-height: 1.5;
+    color:#fffafa
+}
+.about-content ul li{
+    font-size: 20px;
     line-height: 1.5;
     color:#fffafa
 }
@@ -287,7 +294,7 @@ p{
 }
 .Services-col{
     flex-basis: 31%;
-    background: #047427;
+    background: #05712d;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -309,26 +316,37 @@ h3{
 
 /*----------Services---------*/
 .container{
-    background-image: linear-gradient(0,0,0,0.6),rgba(0,0,0,0.6),url(images/Laptop.png);
+    background-image:url(images/dark%20blue.jpg);
     background-size: cover;
     background-position: center;
     color: #fff !important;
+}
+/*-------about page-------*/
+.container-about{
+      background-image:url(images/);
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
+    
 }
 .service{
     margin: 90px auto;
     text-align: center;
 }
-h1{
+.service h1{
     font-family: sans-serif;
     letter-spacing: 1px;
 }
-h1:after{
+.service h1:after{
     content:'';
     background: white;
     display: block;
     width: 150px;
     height: 3px;
     margin: 10px auto;
+}
+.service p{
+    font-size: 20px;
 }
 .icon{
     font-size: 30px;
@@ -352,7 +370,7 @@ h1:after{
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    color: aliceblue
+    color: aliceblue;
 }
 .clients-col{
     flex-basis: 20%;
@@ -385,7 +403,7 @@ h1:after{
     text-align: left;
     
 }
-@media(max-width: 700px){
+@media(max-width: 1033px){
     .clients-col{
         flex-wrap: column;
     }
@@ -394,46 +412,7 @@ h1:after{
     
 
 
-/*---------testimonial-------*/
 
-.testimonials{
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    text-align: center;
-    color: aliceblue
-}
-.testimonial-col{
-    flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    background: #174b0a;
-    padding: 25px;
-    cursor: pointer;
-    display: flex;
-}
-.testimonial-col img{
-    height: 40px;
-    margin-left: 5px;
-    margin-right: 30px;
-    border-radius: 50%;
-}
-.testimonial-col p{
-    padding: 0;
-    color: aliceblue
-}
-.testimonial-col h3{
-    margin-top: 15px;
-    text-align: left;
-}
-.fa-user-circle{
-    color:#0f4f01ee;
-     margin: 50px;
-    cursor: pointer;
-    height: 60px;
-    padding: 80px;
-}
 
 /*--------call to action-------------*/
 
@@ -454,7 +433,7 @@ h1:after{
     padding: 0;
 }
 
-@media(max-width: 700px){
+@media(max-width: 1033px){
     .cta h1{
         font-size: 24px;
     }
@@ -575,7 +554,7 @@ sub header h1{
 }
 
 .red-btn{
-    border: 1px solid #0d4206;
+    border: 1px solid #05712d;
     background: transparent;
     color: #0b470e
 }
@@ -610,7 +589,7 @@ sub header h1{
 }
 .contact-col div .fa{
     font-size: 28px;
-    color: #055f0c;
+    color:white;
     margin: 10px;
     margin-right: 30px;
 }
@@ -620,6 +599,7 @@ sub header h1{
 .contact-col div h5{
     font-size: 20px;
     margin-bottom: 5px;
+    color: white;
 }
 
 .contact-col input, .contact-col textarea{
@@ -635,7 +615,7 @@ sub header h1{
 .containers{
     width: 100%;
     height: 100vh;
-    padding: 0 8%;
+    padding: 0 16%;
     color: #fff;
 }
 .containers h1{
@@ -647,7 +627,7 @@ sub header h1{
 }
 .containers h1::after{
     content:'';
-    background: #014f1e;
+    background: #05712d;
     width: 150px;
     height: 5px;
     position: absolute;
@@ -656,7 +636,7 @@ sub header h1{
     transform: translateX(-50%);
 }
 .rows{
-    display: grid;
+    display:table-cell;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 30px;
 }
@@ -686,162 +666,6 @@ sub header h1{
 .Services:hover i{
     color:#f3f3f3;
 }
-/*---------services
-
-.services-section
-{
-    padding: 50px 0;
-    color: #202020;
-    background-color: #023020;
-}
-.services-section .containers{
-    max-width: 1240px;
-    margin: auto;
-
-}
-.rows{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.services-section .titles{
-    color:#fff;
-    position:relative;
-    padding-bottom: 14px;
-    margin-bottom: 25px;
-    font-weight: 700;
-    font-size: 32px;
-    text-transform: capitalize;
-}
-.services-section .titles span{
-    color:#014f1e;
-}
-.services-section .titles:before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 140px;
-    height: 3px;
-    background-color: #014f1e;
-}
-.services-section .titles:after{
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 50%;
-    width: 45px;
-    height: 6px;
-    background-color: #014f1e;
-    transform: translateX(-50%);
-}
-.services-section .description{
-    letter-spacing: 1px;
-    font-size: 16px;
-    color:#6f6f71;
-    font-weight: 600;
-    text-align: center;
-}
-
-
-
-.services-section .service-column{
-    max-width: 33.333333%;
-    padding: 0 15px;
-}
-.services-section .service-column .single-services{
-    position: relative;
-    margin-top: 30px;
-    background-color: #213496;
-    border-radius: 0;
-    padding: 40px 30px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-    overflow: hidden;
-    text-align: center;
-}
-
-.services-section .service-column .single-services .content{
-    position: relative;
-    z-index: 20;
-}
-
-.services-section .service-column .single-services .content .icon{
-    display: inline-block;
-    margin-bottom: 25;
-    width: 70px;
-    height: 70px;
-    background-color: #829d84;
-    border-radius: 5px;
-    line-height: 70px;
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
-    transition: all 0.5s;
-}
-.services-section .service-column .single-services:hover .icon{
-    background-color: #fff;
-    color: #09dbf6;
-    border-radius: 50px;
-    transition: all 0.5s;
-}
-.services-section .service-column .single-services .content .main-title{
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 23px;
-    color: #d0f903;
-    transition: color 0.3s;
-}
-.services-section .service-column .single-services .content .description{
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-    font-size:14px;
-    font-weight: 500;
-    color: #3009cb;
-    transition: color 0.3s;
-}
-.services-section .service-column .single-services:hover .description{
-    color:#04e217;
-}
-.services-section .service-column .single-services .content .learn-more{
-    color:#d02626;
-    text-decoration: none;
-    font: size 18px;
-    position: relative;
-    font-weight: 500;
-    transition: color .3s;
-}
-.services-section .service-column .single-services .content .learn-more:after{
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background-color: #014f1e;
-    transition: background-color .3s;
-}
-.services-section .service-column .single-services:hover .learn-more:after{
-    background-color:#fff;
-}
-.services-section .service-column .single-services .circle-before{
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(40%, -40%);
-    width: 150px;
-    height: 150px;
-    background-color: #014f1e;
-    border-radius: 50%;
-    transition: all 0.6s;
-}
-.services-section .service-column .single-services:hover .circle-before{
-    width: 100%;
-    height: 100%;
-    transform: none;
-    border: 0;
-    border-radius: 0;
-    opacity: 0.8s;
-}------*/
 
 
 .foot-nav-links{
